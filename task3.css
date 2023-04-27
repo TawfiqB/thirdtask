@@ -1,0 +1,345 @@
+/* General styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+  background-color: #fff;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #333;
+  color: #fff;
+}
+section {
+  padding: 50px 0;
+  background-color: #fff;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+section:not(:last-child) {
+  margin-bottom: 50px;
+}
+
+/* Intro section styles */
+#intro {
+  height: 100vh;
+  background-image: url("https://cdn.mos.cms.futurecdn.net/steVjWGx3vYPjMpJL2jVcV.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1), inset 0 -5px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.intro-content {
+  text-align: center;
+  color: black;
+  max-width: 600px;
+  
+}
+
+.intro-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.intro-content p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.btn {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #333;
+}
+section {
+  padding: 50px 0;
+  background-color: #fff;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+section:not(:last-child) {
+  margin-bottom: 50px;
+}
+
+/* Academic section styles */
+#academic {
+  background-color: #f5f5f5;
+  background-image: url("https://mad-hatter.it.unideb.hu/portal/displayDocument/M%C3%A9diat%C3%A1r/Aloldalak%20fot%C3%B3i/2008_03_06_Nagy%20olvas%C3%B3,%20DEENK_032.JPG");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1), inset 0 -5px 10px rgba(0, 0, 0, 0.1);
+   background-color: rgba(255, 255, 255, 0.8); /* 80% opacity white */
+
+
+}
+
+.academic-content {
+   text-shadow: 
+    -1px -1px 0 #000, 
+    1px -1px 0 #000, 
+    -1px 1px 0 #000, 
+    1px 1px 0 #000;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+}
+
+.academic-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.academic-content p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.academic-content ul {
+  text-align: left;
+  list-style: none;
+  font-size: 1.1rem;
+}
+
+.academic-content ul li {
+  margin-bottom: 10px;
+}
+
+/* Projects section styles */
+/* Projects section styles */
+#projects {
+     text-shadow: 
+    -1px -1px 0 #000, 
+    1px -1px 0 #000, 
+    -1px 1px 0 #000, 
+    1px 1px 0 #000;
+  padding: 50px 0;
+  background-color: white;
+  background-opacity: 0.5;
+  background-position: center;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1), inset 0 -5px 10px rgba(0, 0, 0, 0.1);
+    background-image:url("https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2021/06/Project-For-Engineering-Students.jpg");
+}
+
+.projects-content {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  color: white;
+}
+
+.projects-content h2 {
+  font-size: 2em;
+  margin-bottom: 40px;
+}
+
+.project {
+  margin-bottom: 40px;
+}
+
+.project h3 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.project p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.project a {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.project a:hover {
+  background-color: #fff;
+  color: #333;
+}
+/* Contact section styles */
+#contact {
+  background-color: #f5f5f5;
+  padding: 100px 0;
+}
+
+.contact-content {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+.contact-content h2 {
+  font-size: 2em;
+  margin-bottom: 40px;
+}
+
+.contact-form {
+  display: flex;
+  justify-content: center;
+}
+
+.form-group {
+  margin-right: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 1.2em;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.form-group textarea {
+  height: 150px;
+}
+
+.form-group button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.form-group button:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+/* About section styles */
+#about {
+  background-color: #333;
+  color: #fff;
+  padding: 100px 0;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+.about-content h2 {
+  font-size: 2em;
+  margin-bottom: 40px;
+}
+
+.about-content p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.about-content ul {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.about-content li {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.about-content a {
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.about-content a:hover {
+  color: #f5f5f5;
+}
+
+.social-media-links button {
+ 
+  background-color: #3498db;
+  color: white;
+  border: none;
+  justify-content: center;
+  align: center;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.social-media-links button:hover {
+  background-color: #2980b9;
+}
+
+.social-media-links button i {
+  display: block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
